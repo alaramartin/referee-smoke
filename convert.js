@@ -11,3 +11,4 @@ if (value !== undefined) {
     }
     console.log(/c/i.test(unit) ? `${cToF(n).toFixed(1)} F` : `${fToC(n).toFixed(1)} C`);
 }
+// kelvin support
